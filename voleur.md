@@ -1,5 +1,10 @@
 ---
 title: "Voleur - Writeup"
+layout: post
+permalink: /writeups/voleur
+---
+---
+title: "Voleur - Writeup"
 date: 2025-07-07
 tags: htb windows active-directory
 ---
