@@ -1,0 +1,18 @@
+title: "Writeups de [Tu Alias]"
+description: "Soluciones detalladas de máquinas HackTheBox y TryHackMe"
+baseurl: ""  # Importantísimo dejar así para GitHub Pages!
+url: "https://tunombredeusuario.github.io"  # Tu URL final
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+# Configuración de Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Colecciones para writeups
+collections:
+  writeups:
+    output: true
+    permalink: /:collection/:name/
