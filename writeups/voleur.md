@@ -1,3 +1,9 @@
+---
+title: "Voleur - Writeup"
+layout: page  # Usa el layout por defecto
+permalink: /writeups/voleur  # Define la URL personalizada
+collection: writeups  # Asigna a la colección
+---
 # Voleur - HackTheBox
 
 ## Resumen

@@ -7,6 +7,10 @@ description: "Soluciones detalladas de máquinas HackTheBox y TryHackMe"
 baseurl: ""  # Importantísimo dejar así para GitHub Pages!
 url: "https://tunombredeusuario.github.io"  # Tu URL final
 theme: minima
+permalink: /:title/
+collections:
+  writeups:
+    output: true
 plugins:
   - jekyll-seo-tag
 
