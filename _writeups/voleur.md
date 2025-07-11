@@ -221,12 +221,6 @@ Recursos Recomendados
 
 ---
 
-### Pasos para implementar:
-1. Copia esta plantilla
-2. Pégala en `_writeups/voleur.md`
-3. Completa las secciones con tus hallazgos específicos
-4. Agrega capturas de pantalla en `assets/images/voleur/`
-5. Haz commit y push:
 ```bash
 
 
