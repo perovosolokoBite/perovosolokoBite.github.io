@@ -1,23 +1,10 @@
+# CONTENIDO CORREGIDO:
 title: "Writeups de HTB"
 description: "Soluciones detalladas de máquinas HackTheBox"
 theme: minima
 baseurl: ""
-permalink: /writeups/:title/
-collections:
-  writeups:
-    output: true
-    permalink: /:collection/:name/
 css: /assets/css/style.css
-url: "https://perovosolokoBite.github.io"  # Tu URL final
-plugins:
-  - jekyll-seo-tag
-
-# Configuración de Markdown
-markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
-
-# Colecciones para writeups
+url: "https://perovosolokoBite.github.io"
 collections:
   writeups:
     output: true
