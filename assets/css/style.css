@@ -45,3 +45,38 @@ pre {
 .writeup-card a {
   text-decoration: none;
 }
+.writeup-list {
+  list-style: none;
+  padding: 0;
+}
+
+.writeup-list li {
+  background: #f8f9fa;
+  border-left: 4px solid #0d6efd;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 0 4px 4px 0;
+  transition: transform 0.2s;
+}
+
+.writeup-list li:hover {
+  transform: translateX(5px);
+}
+
+.writeup-list a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+}
+
+.difficulty {
+  float: right;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  color: white;
+}
+
+.difficulty.facil { background: #28a745; }
+.difficulty.media { background: #ffc107; color: #212529; }
+.difficulty.dificil { background: #dc3545; }

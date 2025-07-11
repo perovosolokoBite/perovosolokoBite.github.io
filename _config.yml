@@ -21,4 +21,4 @@ kramdown:
 collections:
   writeups:
     output: true
-    permalink: /:collection/:name/
+    permalink: /writeups/:path/
