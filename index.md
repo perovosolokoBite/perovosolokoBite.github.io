@@ -1,15 +1,21 @@
 ---
 layout: home
-title: "Inicio"
+title: "Writeups HTB"
 ---
 
-# ¡Bienvenido a mis Writeups de HTB!
+# ¡Bienvenido a mis Writeups de HackTheBox!
 
 ## Máquinas Resueltas
 
 {% for writeup in site.writeups %}
-### [{{ writeup.title }}]({{ writeup.url }})
-- **Dificultad**: {{ writeup.difficulty }}
-- **Fecha**: {{ writeup.date | date: "%d/%m/%Y" }}
-- **Temas**: {{ writeup.tags | join: ", " }}
+<div class="writeup-card">
+  <h3>
+    <a href="{{ writeup.url | relative_url }}">
+      {{ writeup.title }}
+    </a>
+  </h3>
+  <p><strong>Dificultad:</strong> {{ writeup.difficulty }}</p>
+  <p><strong>Fecha:</strong> {{ writeup.date | date: "%d/%m/%Y" }}</p>
+  <p><strong>Temas:</strong> {{ writeup.tags | join: ", " }}</p>
+</div>
 {% endfor %}

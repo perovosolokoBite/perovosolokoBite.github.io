@@ -22,3 +22,26 @@ pre {
   display: block;
   word-wrap: break-word;
 }
+.writeup-card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.writeup-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-color: #0d6efd;
+}
+
+.writeup-card h3 {
+  margin-top: 0;
+  color: #0d6efd;
+}
+
+.writeup-card a {
+  text-decoration: none;
+}
