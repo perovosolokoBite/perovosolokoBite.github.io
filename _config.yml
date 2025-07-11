@@ -1,16 +1,14 @@
----
-title: "Voleur HTB Writeup"
-tags: [htb, windows, active-directory, kerberos, suid]
----
-css: /assets/css/style.css
-description: "Soluciones detalladas de máquinas HackTheBox y TryHackMe"
-baseurl: ""  # Importantísimo dejar así para GitHub Pages!
-url: "https://tunombredeusuario.github.io"  # Tu URL final
+title: "Writeups de HTB"
+description: "Soluciones detalladas de máquinas HackTheBox"
 theme: minima
-permalink: /:title/
+baseurl: ""
+permalink: /writeups/:title/
 collections:
   writeups:
     output: true
+    permalink: /:collection/:name/
+css: /assets/css/style.css
+url: "https://perovosolokoBite.github.io"  # Tu URL final
 plugins:
   - jekyll-seo-tag
 

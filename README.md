@@ -1,1 +1,0 @@
-# perovosolokoBite.github.io

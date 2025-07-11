@@ -1,15 +1,15 @@
 ---
 layout: home
+title: "Inicio"
 ---
 
-# ¡Bienvenido!
+# ¡Bienvenido a mis Writeups de HTB!
 
-## Mis Writeups:
+## Máquinas Resueltas
+
 {% for writeup in site.writeups %}
-- [{{ writeup.title }}]({{ writeup.url }})
+### [{{ writeup.title }}]({{ writeup.url }})
+- **Dificultad**: {{ writeup.difficulty }}
+- **Fecha**: {{ writeup.date | date: "%d/%m/%Y" }}
+- **Temas**: {{ writeup.tags | join: ", " }}
 {% endfor %}
-
----layout: home---
-# ¡Bienvenido!
-## Writeups
-- [Voleur (Windows Active Directory)](/writeups/Voleur)
