@@ -1,4 +1,8 @@
-title: "Writeups de [Tu Alias]"
+---
+title: "Voleur HTB Writeup"
+tags: [htb, windows, active-directory, kerberos, suid]
+---
+css: /assets/css/style.css
 description: "Soluciones detalladas de máquinas HackTheBox y TryHackMe"
 baseurl: ""  # Importantísimo dejar así para GitHub Pages!
 url: "https://tunombredeusuario.github.io"  # Tu URL final

@@ -1,3 +1,4 @@
 ---layout: home---
 # ¡Bienvenido!
-[Ver writeup de Voleur](/writeups/voleur)
+## Writeups
+- [Voleur (Windows Active Directory)](/writeups/Voleur)
