@@ -1,4 +1,7 @@
 ---
+layout: page
+permalink: /_writeups/voleur/
+
 title: "Voleur - Writeup"
 difficulty: "Medium"
 date: 2025-07-07
