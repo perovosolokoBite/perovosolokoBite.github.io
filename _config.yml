@@ -8,4 +8,4 @@ url: "https://perovosolokoBite.github.io"
 collections:
   writeups:
     output: true
-    permalink: /_writeups/:path/
+    permalink: /writeups/:path/
