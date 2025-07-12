@@ -7,7 +7,7 @@ tags: [htb, windows, active-directory, kerberos, bloodhound]
 
 # Voleur - HackTheBox Writeup
 
-## 🔍 Información Básica
+## 🔍 Información Básica a ver si me toma los cambios
 
 
 | **Campo**          | **Valor**   |
