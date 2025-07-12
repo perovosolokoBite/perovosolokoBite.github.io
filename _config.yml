@@ -1,4 +1,6 @@
 # CONTENIDO CORREGIDO:
+include:
+  - _writeups
 title: "Writeups de HTB"
 description: "Soluciones detalladas de máquinas HackTheBox"
 theme: minima
