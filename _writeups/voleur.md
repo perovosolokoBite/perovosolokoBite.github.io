@@ -7,21 +7,14 @@ tags: [htb, windows, active-directory, kerberos, bloodhound]
 
 # Voleur - HackTheBox Writeup
 
-## 🔍 Información Básica a ver si me toma los cambios
-
+## 🔍 Información Básica 
 
 | **Campo**          | **Valor**   |
-
 |--------------------|-------------|
-
 | IP                 | 10.10.11.76 |
-
 | Dominio            | voleur.htb  |
-
 | Realm Kerberos     | VOLEUR.HTB  |
-
 | Autor              | Irioshi     |
-
 | Fecha Resolución   | 2025-07-06  |
 
 
