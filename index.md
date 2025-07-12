@@ -1,11 +1,17 @@
 ---
 layout: home
 title: "Writeups HTB"
+
 ---
 
 # ¡Bienvenido a mis Writeups de HackTheBox!
 
 ## Máquinas Resueltas
+
+# Writeups disponibles:
+- [Voleur Writeup](/_writeups/voleur)
+
+
 
 <ul class="writeup-list">
 {% for writeup in site.writeups %}
